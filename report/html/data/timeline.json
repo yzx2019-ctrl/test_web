@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "USER-20191018KD",
+    "children" : [ {
+      "name" : "9956-MainThread",
+      "children" : [ {
+        "name" : "test_search",
+        "uid" : "e546e2773721fb1",
+        "parentUid" : "f1d5450bae14979a085125f915ef2466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614089505569,
+          "stop" : 1614089505935,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1d5450bae14979a085125f915ef2466"
+    } ],
+    "uid" : "69ae214b4ffe95e4b2a63c0040513206"
+  } ]
+}
