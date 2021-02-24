@@ -5,8 +5,10 @@ from selenium import webdriver
 
 class TestSearch(object):
 
+    chrome_driver = "C:\driver\chromedriver.exe"
     def setup(self):
-        self.driver = webdriver.Chrome()
+
+        self.driver = webdriver.Chrome(executable_path=self.chrome_driver)
         self.driver.get("https://www.baidu.com/")
 
 
